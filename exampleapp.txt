@@ -1,0 +1,1 @@
+This is an example file. It requires dependency exampledependency.txt. This package is named example.
