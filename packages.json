@@ -1,0 +1,8 @@
+var packages = {
+	"example": {
+		"file": "exampleapp.txt";
+		"dependencies": [
+			{"file": "exampledependency.txt"}
+		]
+	}
+};
