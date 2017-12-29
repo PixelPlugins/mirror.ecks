@@ -4,5 +4,9 @@ var packages = {
 		"dependencies": [
 			{"file": "exampledependency.txt"}
 		]
+	},
+	"Plexicraft.Core": {
+		"file": "Plexicraft/Packages/Core.zip",
+		"dependencies": []
 	}
 };
