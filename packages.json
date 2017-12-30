@@ -1,16 +1,19 @@
 var packages = {
 	"example": {
 		"file": "exampleapp.txt",
+		"action": "None",
 		"dependencies": [
 			"exampledependency"
 		]
 	},
 	"Plexicraft.Core": {
 		"file": "Plexicraft/Packages/Core.zip",
+		"action": "Unzip",
 		"dependencies": []
 	},
 	"exampledependency": {
 		"file": "exampledependency.txt",
+		"action": "None",
 		dependencies: []
 	}
 };
