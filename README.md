@@ -38,3 +38,12 @@ If you want to package your software for EPM, first figure out if your software 
 6. If your package requires any other EPM packages to be installed, make sure to put the names of those packages in your issue
 7. Wait for a response, either saying your package was uploaded or that it failed
 8. Test your package. Do EPM \<your package name\>
+
+# You can put a button on your website to automatically install an EPM package!
+## Disclaimer: Malware and Viruses can be installed if you aren't careful! Be cautious when installing packages. I'M NOT RESPONSIBLE FOR BAD PACKAGES!
+First, you need to download EPM.reg [here](https://cdn.rawgit.com/PixelPlugins/mirror.ecks/ad08a27a/EPM.reg). Then open it. You will be asked to open regedit, so click yes, then yes again, and finally, OK. Now "Install with EPM" buttons work.
+
+## How to make one of those buttons
+If you are using markdown, do this: \[\!\[Install with EPM\]\(https://github.com/PixelPlugins/mirror.ecks/blob/master/install-with-epm.png?raw=true)](epminstall:<your package name\>)
+
+If you are using HTML, do this: \<img src="https://github.com/PixelPlugins/mirror.ecks/blob/master/install-with-epm.png?raw=true" onclick="parent.location='epminstall:\<your package name\>'"\>
