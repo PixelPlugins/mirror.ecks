@@ -41,7 +41,7 @@ If you want to package your software for EPM, first figure out if your software 
 
 # You can put a button on your website to automatically install an EPM package!
 ## Disclaimer: Malware and Viruses can be installed if you aren't careful! Be cautious when installing packages. I'M NOT RESPONSIBLE FOR BAD PACKAGES!
-First, you need to put EPM.exe and Jint.exe in the C:\Ecks folder. (Create it if it doesn't exist)
+First, you need to download EPM-WEB.exe [here](https://github.com/PixelPlugins/mirror.ecks/blob/master/EPM-WEB.exe?raw=true) and rename it EPM.exe. Then put it, along with Jint.dll in the C:\Ecks folder. (Create it if it doesn't exist)
 
 Next, you need to download EPM.reg [here](https://cdn.rawgit.com/PixelPlugins/mirror.ecks/ad08a27a/EPM.reg). Then open it. You will be asked to open regedit, so click yes, then yes again, and finally, OK. Now "Install with EPM" buttons work.
 
