@@ -10,7 +10,7 @@ Just click this...
 ## Usage
 To use EPM, you must interface it with the command line. (However, a GUI is comming out soon). Open the folder that has EPM.exe and Jint.dll in it, and then hold shift and right-click in the white space to the side.(So your mouse isn't touching a file.) Then click "open command window/powershell here". Now you can use EPM commands.
 
-Installing a package is easy: EPM <package name>
+Installing a package is easy: EPM &ltpackage name&gt
 
 Every EPM package is stored on this repo. To do a quick test, try EPM example
 
@@ -26,7 +26,7 @@ If you want to package your software for EPM, first figure out if your software 
 3. Also add the name of your package
 4. If your package requires any other EPM packages to be installed, make sure to put the names of those packages in your issue
 5. Wait for a response, either saying your package was uploaded or that it failed
-6. Test your package. Do EPM <your package name>
+6. Test your package. Do EPM &ltyour package name&gt
 
 ### If it is multiple files:
 
@@ -37,4 +37,4 @@ If you want to package your software for EPM, first figure out if your software 
 5. Also add the name of your package
 6. If your package requires any other EPM packages to be installed, make sure to put the names of those packages in your issue
 7. Wait for a response, either saying your package was uploaded or that it failed
-8. Test your package. Do EPM <your package name>
+8. Test your package. Do EPM &ltyour package name&gt
